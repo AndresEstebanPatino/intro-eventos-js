@@ -87,3 +87,15 @@ function añadirAlCarrito(){
 boton6.addEventListener('click', () => {
     añadirAlCarrito()
 })
+
+
+
+
+//Main: Era la rama principal, siempre debe estar estable.
+//Develop o rama de desarrollo: Es la rama en donde se integran todos los cambios y se hacen las pruebas antes de enviar los cambios a la main.
+//Feature: Es el tipo de rama en donde se desarrollan nuevas características o tareas del proyecto, ejemplo -> una navbar, un botón, etc.
+//Release: Es la rama en donde se refactoriza el código.
+//Hotfix: Es una rama de emergencia que sale de la main para solucionar un problema que no puede esperar  a otra versión del proyecto. 
+
+//Merge o mergear los cambios: Combinar los cambios de una rama en la otra. 
+
